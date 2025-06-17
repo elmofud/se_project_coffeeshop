@@ -12,14 +12,19 @@
 }
 
 .header {
-  background: #fff url(../images/logo_coffeeshop_dark.svg) none cover center;
+  display: flex;
+  flex-direction: column;
+  background: #fff url(../images/background_header.svg) none cover center;
+  max-height: 800px;
+  min-height: 750px;
+  padding: 30px 80px 40px;
 }
 .nav {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: o, auto;
+  margin: 0;
 }
 
 .nav__logo{
@@ -31,7 +36,7 @@
   display: flex;
   flex-direction: row;
   column-gap: 20px;
-  padding-left: 20;
+  margin-top: 0;
 }
 
 .nav__link {
