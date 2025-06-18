@@ -14,10 +14,14 @@
 .header {
   display: flex;
   flex-direction: column;
-  background: #fff url(../images/background_header.svg) none cover center;
+  background-image: url(../images/background_header.svg);
+  background-color: #fff;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
   height: 800px;
-  /* padding: 30px 80px 40px; */
 }
+
 .nav {
   list-style: none;
   display: flex;
@@ -46,11 +50,15 @@
 }
 
 .header__title {
+  top: 183px;
+  margin-left: 80px;
+  max-width: 749px;
 }
 
 .header__span-accent {
 }
 .header__description {
+  margin: 28px 0 80px 0;
 }
 
 .header__imgage {
