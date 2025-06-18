@@ -14,13 +14,10 @@
 .header {
   display: flex;
   flex-direction: column;
-  background-image: url(../images/background_header.svg);
-  background-color: #fff;
-  background-repeat: none;
-  background-position: center;
-  background-size: cover;
-  padding: 30px 80px 0;
+  background: center/cover no-repeat #fff url(../images/background_header.svg);
+git  padding: 30px 80px 48px;
   height: 800px;
+  position: relative;
 }
 
 .nav {
@@ -34,7 +31,7 @@
   position: relative;
   width: 105px;
   height: 39px;
-  left: 30px;
+  left: -50px;
 }
 
 .nav__links {
@@ -51,23 +48,19 @@
   color: #000;
 }
 
-/* .header__title {
-  margin-top: 183px;
-  margin-left: 80px;
-  max-width: 749px;
-  font-size: 20;
-  color: #0000;
+.header__title {
+  margin: 183px 0 0;
+  max-width: 729px;
 }
 
 .header__span-accent {
-  font-size: 18px;
   font-style: italic;
   color: #3f96f3;
-  margin 0;
 }
 .header__description {
-  margin: 28px 0 80px 0;
-} */
+  margin: 28px 0 0;
+  max-width: 683;
+}
 
 .header__image {
   position: absolute;
@@ -75,10 +68,18 @@
   height: 546px;
   top: 148px;
   right: 5px;
-
   margin: 0;
   padding: 0;
 }
 
 .header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  bottom: 48px;
+}
+
+.header__paragraph {
+  margin: 0;
 }
