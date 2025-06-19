@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   background: center/cover no-repeat #fff url(../images/background_header.svg);
-git  padding: 30px 80px 48px;
+  padding: 30px 80px 48px;
   height: 800px;
   position: relative;
 }
@@ -25,6 +25,10 @@ git  padding: 30px 80px 48px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .nav__logo {
@@ -51,15 +55,32 @@ git  padding: 30px 80px 48px;
 .header__title {
   margin: 183px 0 0;
   max-width: 729px;
+  font-family: "Inter", "Arial", sans-serif;
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
 }
 
 .header__span-accent {
+  display: block;
+  font-family: "noto Serif", "Times New roman", serif;
   font-style: italic;
+  /* font-weight: normal; */
+  /* font-size: 60px; */
+  /* line-height: 72px; */
   color: #3f96f3;
 }
+
 .header__description {
   margin: 28px 0 0;
-  max-width: 683;
+  max-width: 683px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
@@ -78,6 +99,12 @@ git  padding: 30px 80px 48px;
   justify-content: space-between;
   align-items: flex-end;
   bottom: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
 }
 
 .header__paragraph {
