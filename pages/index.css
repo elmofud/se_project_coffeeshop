@@ -110,3 +110,32 @@
 .header__paragraph {
   margin: 0;
 }
+
+.recipes {
+  background: center/cover no-repeat #0a2750
+    url(../images/background_recipes.svg);
+  padding: 100px 80px 215px;
+}
+
+.recipes__title {
+  /* margin: 100px, 0 0 80px; */
+  max-width: 580px;
+  margin: 0;
+}
+
+.recipes__subtitle {
+  margin: 24px 0 80px;
+  max-width: 438px;
+}
+
+.recipes__video {
+  width: 480px;
+  height: 273px;
+  margin: 0 auto;
+}
+
+.recipes__iframe {
+}
+
+.recipes__video-caption {
+}
