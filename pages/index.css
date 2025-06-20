@@ -153,7 +153,7 @@
   margin: 0;
 }
 
-.recipes__video-caption__title {
+.recipes__video-title {
   margin: 0;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
@@ -161,7 +161,7 @@
   line-height: 30px;
 }
 
-.recipes__video-caption__time {
+.recipes__video-time {
   margin: 0;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
