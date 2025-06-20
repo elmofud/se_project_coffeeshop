@@ -102,6 +102,10 @@
   color: #6f6f6f;
 }
 
+.header__shop-hours {
+  margin: 0;
+}
+
 .header__paragraph {
   margin: 0;
 }
