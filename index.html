@@ -120,6 +120,7 @@
                 <p class="form__name">Name*</p>
                 <input
                   type="name"
+                  class="form__input"
                   id="first-name"
                   name="name"
                   value="Name Surname"
@@ -129,30 +130,42 @@
             </fieldset>
             <fieldset class="form__fieldset">
               <label class="form__guests">
-                <input type="number" min="1" and max="8 " value="8" />
+                <input
+                  type="number"
+                  class="form__input"
+                  min="1"
+                  and
+                  max="8 "
+                  placeholder="1-8"
+                />
               </label>
             </fieldset>
             <fieldset class="form__fieldset">
               <label class="form__label"> </label>
             </fieldset>
             <fieldset>
-              <label class="form_label">
-                <input type="date" date="__/__/__" value="12/17/1994" />
-              </label>
+              <label class="form_label" for="datetime">Date & Time </label>
+              <input type="datetime" class="form__input" id="datetime" />
             </fieldset>
             <fieldset class="form__fieldset">
-              <label class="form__label" for="email">Email</label>
+              <label class="form__label" for="email">Your email</label>
               <input type="email" id="email" placeholder="bob@att.com" />
             </fieldset>
             <fieldset class="form__fieldset">
               <label class="form__label">
-                <input type="submit" name="resevation" value="resevation" />
+                <input
+                  type="submit"
+                  class="form__input"
+                  name="resevation"
+                  value="book a table"
+                />
               </label>
             </fieldset>
             <fieldset class="form__fieldset">
-              <label class="form__label">
-                <input type="checkbox" value="I agree with the terms of use." />
-              </label>
+              <label class="form__label" for="checkbox">
+                I agree with the terms of use></label
+              >
+              <input type="checkbox" class="form__input" id="checkbox" />
             </fieldset>
           </form>
         </section>
