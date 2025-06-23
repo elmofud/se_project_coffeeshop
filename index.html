@@ -112,8 +112,51 @@
             </li>
           </ul>
         </section>
+        <section id="reservation" class="reservation">
+          <form class="form">
+            <h3 class="form__title">Book A Table</h3>
+            <fieldset class="form__fieldset">
+              <label class="form__label">
+                <p class="form__name">Name*</p>
+                <input
+                  type="name"
+                  id="first-name"
+                  name="name"
+                  value="Name Surname"
+                  placeholder="Name Surname"
+                />
+              </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__guests">
+                <input type="number" min="1" and max="8 " value="8" />
+              </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label"> </label>
+            </fieldset>
+            <fieldset>
+              <label class="form_label">
+                <input type="date" date="__/__/__" value="12/17/1994" />
+              </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="email">Email</label>
+              <input type="email" id="email" placeholder="bob@att.com" />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label">
+                <input type="submit" name="resevation" value="resevation" />
+              </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label">
+                <input type="checkbox" value="I agree with the terms of use." />
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section id="menu" class="menu"></section>
-        <section id="reservation" class="reservation"></section>
         <section id="about" class="about"></section>
       </main>
       <footer id="contacts" class="footer"></footer>
