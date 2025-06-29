@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+  margin: 0;
+}
+
+.card__title {
+  margin: 0 0 32px;
+}
+
+.card__list {
+  list-style: none;
+}
+
+.card__list-items {
+  margin: 0 0 16px;
+}
+
+.card__list-items_margin {
+  margin: 0;
+}
+
+.card .card__devider {
+}

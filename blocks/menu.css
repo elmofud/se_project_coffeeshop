@@ -15,4 +15,5 @@ menu__subtitle {
 
 menu__card {
   margin: 0;
+  list-style: none;
 }
