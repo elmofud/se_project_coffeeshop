@@ -1,6 +1,5 @@
 .card {
-  display: flex;
-  flex-direction: column;
+  width: 540px;
 
   list-style: none;
   margin: 0;
@@ -15,12 +14,12 @@
 }
 
 .card__list-items {
+  display: flex;
+  gap: 10px;
   margin: 0 0 16px;
 }
 
-.card__list-items_margin {
-  margin: 0;
-}
-
-.card .card__devider {
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #000000;
 }

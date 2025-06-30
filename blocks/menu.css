@@ -8,13 +8,20 @@
 
 .menu__title {
   margin: 0 0 24px;
+  max-width: 780px;
 }
 
 .menu__subtitle {
   margin: 0 0 100px;
+  max-width: 780px;
+  text-align: center;
 }
 
 .menu__card {
   margin: 0;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
 }
