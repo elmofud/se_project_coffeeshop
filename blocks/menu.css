@@ -9,11 +9,12 @@
 .menu__title {
   margin: 0 0 24px;
 }
-menu__subtitle {
+
+.menu__subtitle {
   margin: 0 0 100px;
 }
 
-menu__card {
+.menu__card {
   margin: 0;
   list-style: none;
 }
