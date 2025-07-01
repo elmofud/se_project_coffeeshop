@@ -1,0 +1,51 @@
+@keyframes pulsate {
+  opacity {
+  }
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 80px 173px;
+  background-color: #0a2850;
+  color: white;
+}
+
+.about__title {
+  max-width: 251px;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 19px 0 0;
+}
+
+.about__pharagraph {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__circle {
+  position: absolute;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  border-style: solid;
+  background-color: #184785;
+  left: 129px;
+  top: 152;
+}
+
+about__circle_animation_blurred {
+}
