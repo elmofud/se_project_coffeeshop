@@ -28,4 +28,9 @@
 .nav__link {
   text-decoration: none;
   color: #000000;
+  transition: color 0.5s linear 0s;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
